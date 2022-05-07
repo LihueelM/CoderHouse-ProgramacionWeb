@@ -1,0 +1,81 @@
+#scss__navbar {
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0; }
+
+#carouselMain
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh; }
+
+#carouselMain {
+  margin-top: -76.22px; }
+
+.carousel-item-scss:nth-child(1) {
+  background-image: url("../../images/halo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-item-scss:nth-child(2) {
+  background-image: url("../../images/eldenRing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-item-scss:nth-child(3) {
+  background-image: url("../../images/valorant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+#separador__carousel {
+  width: 100%;
+  overflow: hidden; }
+
+.content {
+  width: 150%;
+  height: 150px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #a76530; }
+
+.card-border {
+  box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -webkit-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -moz-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease ease-out 0.2s; }
+  .card-border:hover {
+    transform: scale(1.05); }
+
+.imgCardOfertas {
+  height: 200px; }
+
+.bg__text {
+  background: url(../../images/tablon.png);
+  margin-bottom: 4rem;
+  box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -webkit-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -moz-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  border-radius: 20px; }
+
+.img__novedades {
+  height: 350px; }
+
+.card__tienda {
+  height: 180px; }
+
+.card__game--tienda {
+  height: 260px;
+  box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -webkit-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  -moz-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
+  border-radius: 20px; }
+
+body {
+  background: url(../images/background_block.jpg); }
