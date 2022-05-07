@@ -14,19 +14,19 @@
   margin-top: -76.22px; }
 
 .carousel-item-scss:nth-child(1) {
-  background-image: url("../../images/halo.jpg");
+  background-image: url("../images/halo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
 
 .carousel-item-scss:nth-child(2) {
-  background-image: url("../../images/eldenRing.jpg");
+  background-image: url("../images/eldenRing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
 
 .carousel-item-scss:nth-child(3) {
-  background-image: url("../../images/valorant.jpg");
+  background-image: url("../images/valorant.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -57,7 +57,7 @@
   height: 200px; }
 
 .bg__text {
-  background: url(../../images/tablon.png);
+  background: url("../images/tablon.png");
   margin-bottom: 4rem;
   box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
   -webkit-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
