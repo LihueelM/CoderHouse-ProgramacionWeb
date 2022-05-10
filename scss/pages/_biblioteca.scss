@@ -1,0 +1,13 @@
+.item-list-biblioteca{  
+    list-style: none;  
+    border: 1px solid lightgray;
+    border-radius: 2px;
+   a{
+       text-decoration: none;
+       color: lightgray;
+       img{
+           width: 2rem;
+           height: 2rem;
+       }
+   }
+}
