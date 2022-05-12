@@ -1,0 +1,43 @@
+.presentacion{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+};
+
+.formulario{
+    height: 100vh;
+    margin: 50px;
+    background-color: rgba($color: #31302f, $alpha: 0.8);
+    color: lightgray;
+    border-radius: 1rem;
+    fieldset{
+        @extend .presentacion;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    legend{
+        font-size: 2rem;      
+    }
+    label{
+        font-size: 1.2rem;
+    }
+    input{
+        width: 12rem;
+        margin: 1rem;
+        border-radius: 0.5rem;
+    }
+    textarea{
+        width: 20rem;
+        height: 15rem;
+        margin: 1rem;
+    }
+    button{
+        width: 12rem;
+        margin: 1rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }    
+};
+

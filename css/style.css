@@ -1,11 +1,13 @@
+body {
+  background: url(../images/background_block.jpg); }
+
 #scss__navbar {
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.6);
   position: sticky;
   top: 0; }
 
-#carouselMain
-.carousel-inner,
+#carouselMain .carousel-inner,
 .carousel-item,
 .carousel-item.active {
   height: 100vh; }
@@ -70,6 +72,15 @@
 .card__tienda {
   height: 180px; }
 
+.tienda__titulo {
+  background: url(../../images/tablon.png);
+  height: 3em;
+  text-align: center;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem; }
+
 .card__game--tienda {
   box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
   -webkit-box-shadow: 0px 0px 23px 8px rgba(41, 29, 4, 0.74);
@@ -87,5 +98,77 @@
       width: 2rem;
       height: 2rem; }
 
-body {
-  background: url(../images/background_block.jpg); }
+.presentacion, .formulario fieldset {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.formulario {
+  height: 100vh;
+  margin: 50px;
+  background-color: rgba(49, 48, 47, 0.8);
+  color: lightgray;
+  border-radius: 1rem; }
+  .formulario fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .formulario legend {
+    font-size: 2rem; }
+  .formulario label {
+    font-size: 1.2rem; }
+  .formulario input, .formulario .configuraciones__generales .informacion__configuraciones .opciones__confg select, .configuraciones__generales .informacion__configuraciones .opciones__confg .formulario select {
+    width: 12rem;
+    margin: 1rem;
+    border-radius: 0.5rem; }
+  .formulario textarea {
+    width: 20rem;
+    height: 15rem;
+    margin: 1rem; }
+  .formulario button {
+    width: 12rem;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 0.5rem; }
+
+.configuraciones__generales, .configuraciones__generales .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .opciones__confg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh; }
+  .configuraciones__generales .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .opciones__confg .informacion__configuraciones {
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem; }
+    .configuraciones__generales .informacion__configuraciones .opciones__confg, .configuraciones__generales .informacion__configuraciones .informacion__configuraciones .opciones__confg {
+      margin: 4rem; }
+      .configuraciones__generales .informacion__configuraciones .opciones__confg h3 {
+        margin: 1rem; }
+      .configuraciones__generales .informacion__configuraciones .opciones__confg input, .configuraciones__generales .informacion__configuraciones .opciones__confg select {
+        margin: 1rem;
+        height: 3rem;
+        text-align: center; }
+  @media (max-width: 480px) {
+    .configuraciones__generales .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .opciones__confg .informacion__configuraciones {
+      flex-direction: column; } }
+  @media (max-width: 768px) {
+    .configuraciones__generales .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .informacion__configuraciones, .configuraciones__generales .informacion__configuraciones .opciones__confg .informacion__configuraciones {
+      flex-direction: column; } }
+
+/* Maps */
+.btn-hover01 {
+  background-color: #7ed6e5; }
+  .btn-hover01:hover {
+    color: white; }
+
+.btn-hover02 {
+  background-color: #de5899; }
+  .btn-hover02:hover {
+    color: white; }
+
+.font-light {
+  color: #eee; }
+
+.font-dark {
+  color: #000; }

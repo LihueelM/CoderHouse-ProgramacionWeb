@@ -1,7 +1,10 @@
+@import "main";
 @import "pages/index";
 @import "pages/tienda";
 @import "pages/games";
 @import "pages/biblioteca";
-body{
-    background:url(../images/background_block.jpg);
-}
+@import "pages/contacto";
+@import "pages/cuenta";
+@import "utilities/mixins";
+@import "utilities/maps";
+

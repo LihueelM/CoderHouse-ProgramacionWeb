@@ -1,0 +1,41 @@
+$movil:480px;
+$tablet:768px;
+
+.configuraciones__generales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    .informacion__configuraciones{
+        @extend .configuraciones__generales;
+        justify-content: center;
+        flex-direction: row;
+        margin: 1rem;
+        .opciones__confg{
+            @extend .configuraciones__generales;
+            margin: 4rem;
+            h3{
+                margin: 1rem;
+            }
+            input{
+                margin: 1rem;
+                height: 3rem;
+                text-align: center;
+            }
+            select{
+                @extend input;
+            }
+        }
+    }
+    @media (max-width:$movil){  
+        .informacion__configuraciones{
+            flex-direction: column;    
+        }        
+    }
+    @media (max-width:$tablet){
+        .informacion__configuraciones{
+            flex-direction: column;
+        }
+    }
+}
+

@@ -1,0 +1,16 @@
+/* Maps */
+$colores:("hover01":#7ed6e5,"hover02":#de5899);
+@each $name, $colors in $colores {
+    .btn-#{$name}{
+        background-color: $colors;
+        &:hover {
+            color:rgb(255, 255, 255);
+        }
+    }
+};
+$fontColor:("light":#eee,"dark":#000);
+@each $name, $colorFont in $fontColor {
+    .font-#{$name}{
+        color: $colorFont;
+    }
+}
