@@ -1,5 +1,9 @@
-@mixin sizesbtn($width,$height){
-    height: $height;
-    width: $width;
+@mixin text-like($color){
+    font-size: 2rem;
+    color: $color;
 }
+.text-like-1{
+    @include text-like(lightgray);
+};
+
 
