@@ -40,10 +40,18 @@
     border-bottom-right-radius: 50%;
     background-color: #a76530
 }
+.btn-C84B31{
+    background-color: #C84B31;
+    border: 1px solid;
+    color: white;    
+}
+.bg-191919{
+    background-color: #191919;
+}
 .card-border{
-    box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
-    -webkit-box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
-    -moz-box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
+    box-shadow: 0px 0px 4px 3px rgba(154,95,184,0.54);
+    -webkit-box-shadow: 0px 0px 4px 3px rgba(154,95,184,0.54);
+    -moz-box-shadow: 0px 0px 4px 3px rgba(154,95,184,0.54);
     border-radius: 20px;
     overflow: hidden;
     transition: all ease ease-out 0.2s;
@@ -55,11 +63,11 @@
     height: 200px;
 }
 .bg__text{
-    background: url("../images/tablon.png");
+    background: url("../../images/spaceblock.jpg");
     margin-bottom: 4rem;
-    box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
-    -webkit-box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
-    -moz-box-shadow: 0px 0px 23px 8px rgba(41,29,4,0.74);
+    box-shadow: 0px 0px 14px 6px rgba(211,117,255,0.54);
+    -webkit-box-shadow: 0px 0px 14px 6px rgba(211,117,255,0.54);
+    -moz-box-shadow: 0px 0px 14px 6px rgba(211,117,255,0.54);
     border-radius: 20px;
 }
 .img__novedades{

@@ -1,3 +1,9 @@
 body{
-    background:url(../images/background_block.jpg);
-}
+    background: -moz-repeating-linear-gradient(45deg, #470678, #390064  65px );
+    background: -webkit-repeating-linear-gradient(45deg, #470678, #390064 65px );
+    background-size: 100px 100px;
+    ;}
+    .img__logo{
+        border-radius: 1rem;
+    }
+    

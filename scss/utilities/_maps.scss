@@ -1,10 +1,10 @@
 /* Maps */
-$colores:("hover01":#7ed6e5,"hover02":#de5899);
+$colores:("hover01":#abba21,"hover02":#ffffff);
 @each $name, $colors in $colores {
     .btn-#{$name}{
         background-color: $colors;
         &:hover {
-            color:rgb(255, 255, 255);
+            color:rgb(83, 83, 83);
         }
     }
 };
